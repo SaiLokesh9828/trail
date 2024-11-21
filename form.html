@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body  >
+    <div class="contactus">
+    <div class="heading">
+        <h1 style="color: orangered;">Contact Me</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="input">
+    <form action="https://api.web3forms.com/submit" method="POST" onsubmit="submitForm(event)" >
+        <input type="hidden" name="access_key" value="f91371a2-77ac-4eff-9f56-b20efb476738">
+        <label for="name" ></label>
+        <input class="Name" type="text" id="name" name="name" placeholder="name" required>
+        <br>
+        <br>
+        <label for="mobile"></label>
+        <input class="Mobile" type="number" id="mobile" name="mobile" placeholder="mobile" required>
+        <br>
+        <br>
+        <label  for="email" ></label>
+        <input class="Email" type="email" id="email" name="email" placeholder="email" required>
+        <br>
+        <br>
+        <textarea class="message" name="message" placeholder="Your message" id="message" required></textarea>
+        <br>
+        <br>
+        <button class="button" type="submit" >Submit</button>
+    </form>
+</div>
+    </div>
+</body>
+</html>
